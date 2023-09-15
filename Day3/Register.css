@@ -1,0 +1,60 @@
+
+.img
+{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+.transrec
+{
+    position: absolute;
+    top:130px;
+    left:120px;
+    border-radius: 50px;
+    width:500px;
+    height:600px;
+    background-color:rgba(160, 151, 151, 0.365);
+}
+.reg{
+    font-size: 30px;
+    font-family:fantasy;
+    font-style: normal;
+    color:blanchedalmond;   
+}
+.form1
+{
+    position: absolute;
+    font-size: 20px;
+    font-family:cursive;
+    margin-left: 10px;
+    left:70px;
+    top:120px;
+}
+input{
+    height:20px;
+    width:250px;
+    background-color:rgba(255, 248, 220, 0);
+    margin-left:10px;
+}
+::placeholder
+{
+    
+    font-size: 15px;
+    font-family:cursive;
+    color:rgba(245, 245, 220, 0.573);
+}
+.button
+{
+    position: absolute;
+    top:420px;
+    background:ghostwhite;
+    border-radius: 20px;
+    width: 130px;
+    height: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style:oblique;
+    font-size: 20px;
+    line-height: 39px;
+    color:black;
+    left: 120px;
+}
