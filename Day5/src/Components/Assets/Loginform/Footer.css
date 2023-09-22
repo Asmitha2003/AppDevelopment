@@ -1,0 +1,113 @@
+.Footer
+    {
+        position: relative;
+         background: rgba(66, 55, 55, 0.927);
+         padding: 1rem 0;
+         margin-top: 2.5rem;
+         top: 700px;
+         height: 600px;   
+    }
+     .Footer h5{/*quick links*/
+        color:   #e19c24;
+        position: relative;
+        font-size: 30px;
+        left:-300px;
+        top:50px;
+     }
+     .ft-2 ul{
+        list-style: none;
+        padding-left: 0;
+        color: white;     
+        
+     }
+     .ft-2 ul li{
+        padding: 0.35rem 0;
+        font-weight: 700;
+        position: relative;
+        top:60px; 
+        left:-300px;
+        color: white;       
+        
+     }
+     .ft-2 ul a{
+      position: relative;
+        text-decoration: none;
+        color: #f6f0f0;
+        font-size: 1.3rem ;
+        top:20px;
+    
+     }
+     .Footer h4{/*con*/
+        color:  #e19c24;
+        position: relative;
+        font-size: 30px;
+        top:-140px;
+        left:300px;
+
+     }
+     .ft-3  p{
+        color: white;     
+        font-weight: 500;
+        padding-right: 0.1rem 0;
+        font-size: 1.06rem ;
+        position: relative;
+        left:300px;
+        top:-100px;
+    
+     }
+     .ft-3 i{
+        padding-right: 0.5rem;
+    
+     }
+     /*.Last-footer {
+        background: #000000;
+        text-align: center;
+        padding: 1rem 0;
+        position: relative;
+        top:-100px
+     }
+     .Last-footer p{
+        margin-bottom: 0;
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: white;
+     }*/
+     .con p
+     {
+        position: absolute;
+        top:400px;
+        font-size:30px;
+        color:#c9730a;
+        left:500px;
+     }
+     .footer-icons i
+     {
+         padding: 0.4rem 0.5rem;
+         background: #e1e1e1;
+         color: #0c0c0c;
+         margin: 0 0.5rem ;
+         border-radius:50%;
+         left:30px;
+         top:450px;
+         position: relative;
+
+     }
+     .footer-icons i:hover
+     {
+         background: #538505 ;
+         color: #fff;
+         transition: 0.6s;
+         cursor: pointer;
+     }
+     .bottom-bar{
+        background: #f18930;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 50px;
+    }
+    .bottom-bar {
+        color: #343434;
+        margin-top:200px;
+        font-size: 16px;
+        padding: 20px;
+    }
