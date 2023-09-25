@@ -1,0 +1,73 @@
+.teaback
+{
+    position: absolute;
+    top:64px;
+    left:0;
+}
+.rectangle
+{
+    position: absolute;
+    top:40px;
+    left:120px;
+    border-radius: 50px;
+    width:500px;
+    height:550px;
+    background-color:rgba(160, 151, 151, 0.365);
+}
+.word p
+{
+    position:absolute;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
+    color:rgba(231, 135, 25, 0.735);
+    margin-top: 30px; 
+    left:150px;  
+}
+.regform
+{
+    position: absolute;
+    margin-left:5px;
+    left:60px;
+    margin-top:110px;
+}
+.regform label{
+    font-size: 25px;
+    font-family:cursive;
+}
+.regform input{
+    height:30px;
+    width:250px;
+    color:rgb(253, 253, 212);
+    background-color:rgba(230, 186, 11, 0);
+    margin-left:10px;
+    padding:3%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    
+}
+.regform ::placeholder
+{
+    font-size: 18px;
+    font-family:cursive;
+    color:rgba(125, 53, 2, 0.406);
+    
+}
+.button1
+{
+    position: absolute;
+    border-radius: 100px;
+    background: #d9d9d956;
+    width: 130px;
+    height: 42px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 39px;
+    color: #000000;
+    left: 120px;
+    margin-top: 20px;;
+    margin-left: 0;
+}
