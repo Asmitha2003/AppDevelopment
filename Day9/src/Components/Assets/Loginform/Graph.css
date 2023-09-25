@@ -1,0 +1,15 @@
+.chart {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #d7d5d541;
+    padding: 42px; 
+    margin-top:60px;
+  }
+  
+ 
+  .chart .apexcharts-canvas {
+    background-color:transparent; 
+    margin-top:90px;
+    
+  }

@@ -1,0 +1,97 @@
+.today-page {
+    display: flex;
+    flex-direction: column;
+    padding: 170px;
+  }
+  
+  .today-page h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+    margin-left:-500px;
+    margin-top: 80px;
+  }
+  
+  .today-page input {
+    width: 100%;
+    max-width: 300px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 60px;
+    margin-left:190px;
+    font-size: 16px;
+  }
+  
+  .water-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+    margin-left:80px;
+  
+  }
+  
+  .water-icon {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .water-icon.selected {
+    background-color: #a180347e;
+    color: white;
+  }
+  .m1
+  {
+    position: absolute;
+    left:310px;
+    top:600px;
+  }
+  .m2
+  {
+    position: absolute;
+    left:480px;
+    top:600px;
+  }
+  .m3
+  {
+    position: absolute;
+    left:650px;
+    top:600px;
+  }
+  .wa{
+    position: absolute;
+    font-size:50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(165, 42, 42, 0.74);
+   margin-left:100px;
+   margin-top: -40px;;
+  }
+  .human-figure {
+    position: relative;
+    width: 400px; /* Adjust the width as needed */
+    height: 400px; /* Adjust the height as needed */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -300px;
+    margin-left: 800px;
+    background-color: rgba(250, 249, 249, 0.507);
+    border: black;
+  }
+  
+  .water-level {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #007bff; /* Change to your desired water color */
+    transition: height 0.5s ease;
+    
+   
+  }
